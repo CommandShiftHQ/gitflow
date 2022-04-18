@@ -1,16 +1,13 @@
-
-import './App.css';
-import HelloWorld2 from './components/HelloWorld2';
 import "./App.css";
-import HelloWorld from "./HelloWorld";
+import "./App.css";
+import HelloWorld from "./components/HelloWorld";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <HelloWorld2 />
+        <HelloWorld />
       </header>
-      <HelloWorld />
     </div>
   );
 }
